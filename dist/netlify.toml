@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/my-form"
+  to = "http://dummy.restapiexample.com/api/v1/create"
+  status = 200
+  headers = {X-From = "Netlify"}
+  signed = "API_SIGNATURE_TOKEN"
