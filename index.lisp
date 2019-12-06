@@ -10,7 +10,7 @@
       (:header
        (:h1 "Home page"))
       (:form
-       :action "#" :method "post"
+       :action "my-form" :method "post"
        (:div
         (:label :for "name")
         (:input :type "text" :id "name" :name "user_name")))))))
