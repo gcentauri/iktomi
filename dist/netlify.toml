@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/my-form"
-  to = "http://dummy.restapiexample.com/api/v1/create"
+  to = "https://postman-echo.com/post"
   status = 200
   headers = {X-From = "Netlify"}
   signed = "API_SIGNATURE_TOKEN"
