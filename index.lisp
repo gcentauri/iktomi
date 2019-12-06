@@ -15,7 +15,7 @@
         (:label :for "name")
         (:input :type "text" :id "name" :name "user_name")))))))
 
-(with-open-file (f "index.html" :direction :output
+(with-open-file (f "dist/index.html" :direction :output
                                 :if-exists :supersede
                                 :if-does-not-exist :create)
     (write-sequence (with-html-string (home)) f))
